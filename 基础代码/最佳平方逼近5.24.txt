@@ -1,0 +1,76 @@
+   参考1
+   https://wenku.baidu.com/view/c5b6cfebb8f67c1cfad6b864.html?from=search
+
+   参考2
+
+
+   https://wenku.baidu.com/view/c5b6cfebb8f67c1cfad6b864.html?from=search
+
+   参考3
+
+   https://wenku.baidu.com/view/cfddfcbc5727a5e9846a6110.html?from=search
+
+
+主程序：
+
+function S = squar_approx( a,b,n)
+global i;global j;
+if nargin<3
+    n=1;
+end
+Phi2=zeros(n+1);
+for i=0:n
+    for j=0:n;
+        Phi2(i+1,j+1)=quad(@rho_phi,a,b);
+    end
+end
+PhiF=zeros(n+1,1);
+for i=0:n
+    PhiF(i+1)=quad(@fun_phi,a,b);
+end
+s=Phi2/PhiF;
+    
+
+
+
+程序2：
+function y=rho_phi(x)
+global i;global j;
+y=(rho(x).*phi_k(x,i)).*phi_k(x,j);
+
+
+
+程序3：
+
+function y=rho(x)
+y=1;
+
+
+程序4：
+
+function y=phi_k(x,k)
+if k==0
+    y=ones(size(x));
+else
+    y=x.^k;
+end
+
+
+
+程序5：
+
+
+
+function y=obj(x)
+y=exp(x)
+
+
+
+
+程序6：
+
+
+ function y=fun_phi(x)
+            global i;
+            y=(rho(x).*phi_k(x,i)).*obj(x);
+    

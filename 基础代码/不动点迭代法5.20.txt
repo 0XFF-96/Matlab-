@@ -1,0 +1,64 @@
+function [root,n]=stablepoint_solber(phai,x0,tol)
+%phai 输入函数
+%x0 初值
+if(nargin==2)
+    tol=1.0e-5;  % 精度要求
+end
+err=1;
+root=x0;
+n=0;
+while(err>tol)
+    n=n+1;   % 迭代次数
+    r1=root;
+    root=feval(phai,r1); %计算函数值
+    err=abs(root-r1);  %误差
+end
+
+
+
+* feval 那个。、
+
+ 不动点迭代法的收敛， 收敛的格式。  等价形式有很多种。
+
+
+
+-------------改进版
+
+function [root,n]=stablepoint_solber(phai,x0,tol)
+%phai 输入函数,，输入收敛的迭代格式
+%x0 初值
+%如何比较收敛格式的衡量标准？
+%收敛阶的定义
+%判定定理：1,2 判断。。。
+if(nargin==2)
+    tol=1.0e-5;  % 精度要求
+end
+err=1;
+root=x0;
+n=0;
+while(err>tol)
+    n=n+1;   % 迭代次数
+    r1=root;
+    root=feval(phai,r1); %计算函数值
+    err=abs(root-r1);  %误差
+end
+
+
+
+
+--------如何进行  不动点分析？  书本  218页
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

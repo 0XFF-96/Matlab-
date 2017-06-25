@@ -1,0 +1,127 @@
+
+绘图函数有 ：
+
+
+
+1、fplot - Plot function between specified limits
+
+    This MATLAB function plots fun between the limits specified by limits.
+
+    fplot(fun,limits)
+    fplot(fun,limits,LineSpec)
+    fplot(fun,limits,tol)
+    fplot(fun,limits,tol,LineSpec)
+    fplot(fun,limits,n)
+    fplot(fun,lims,...)
+    fplot(axes_handle,...)
+    [X,Y] = fplot(fun,limits,...)
+
+
+ezplot - Easy-to-use function plotter
+
+    This MATLAB function plots the expression fun(x) over the default domain -2π < x
+    < 2π, where fun(x) is an explicit function of only x.
+
+    ezplot(fun)
+    ezplot(fun,[xmin,xmax])
+    ezplot(fun2)
+    ezplot(fun2,[xymin,xymax])
+    ezplot(fun2,[xmin,xmax,ymin,ymax])
+    ezplot(funx,funy)
+    ezplot(funx,funy,[tmin,tmax])
+    ezplot(...,figure_handle)
+    ezplot(axes_handle,...)
+    h = ezplot(...)
+
+
+例如：
+
+
+
+
+
+
+
+2、plot3 - 3-D line plot
+
+    This MATLAB function, where X1, Y1, Z1 are vectors or matrices, plots one or
+    more lines in three-dimensional space through the points whose coordinates are
+    the elements of X1, Y1, and Z1.
+
+    plot3(X1,Y1,Z1,...)
+    plot3(X1,Y1,Z1,LineSpec,...)
+    plot3(...,'PropertyName',PropertyValue,...)
+    plot3(axes_handle,...)
+    h = plot3(...)
+
+
+
+例如：
+
+
+
+
+
+
+
+3-
+mesh - Mesh plot
+
+    This MATLAB function draws a wireframe mesh with color determined by Z, so color
+    is proportional to surface height.
+
+    mesh(X,Y,Z)
+    mesh(Z)
+    mesh(...,C)
+    mesh(...,'PropertyName',PropertyValue,...)
+    mesh(axes_handles,...)
+    h = mesh(...)
+
+
+
+
+
+
+4-surf - 3-D shaded surface plot
+
+    This MATLAB function creates a three-dimensional shaded surface from the z
+    components in matrix Z, using x = 1:n and y = 1:m, where [m,n] = size(Z).
+
+    surf(Z)
+    surf(Z,C)
+    surf(X,Y,Z)
+    surf(X,Y,Z,C)
+    surf(...,'PropertyName',PropertyValue)
+    surf(axes_handles,...)
+    h = surf(...)
+
+6-help meshgrid
+meshgrid - Rectangular grid in 2-D and 3-D space
+
+    This MATLAB function replicates the grid vectors xgv and ygv to produce a full
+    grid.
+
+    [X,Y] = meshgrid(xgv,ygv)
+    [X,Y,Z] = meshgrid(xgv,ygv,zgv)
+    [X,Y] = meshgrid(gv)
+    [X,Y,Z] = meshgrid(gv)
+
+
+
+绘制三维曲面图步骤：
+
+1）： 对数据进行处理，得到三维曲面上的点坐标组
+
+  方法有：
+          1、将自变量离散， x=xmin:dx:xmax y=ymin:dy:ymax
+          2、利用meshgrid 指令 生成 x-y 矩阵
+
+2）：利用函数z=f(x,y) 计算函数值
+
+3) 绘图。  mesh: 绘制三维网格曲面图  surf :绘制三维颜色填充图
+
+
+
+
+
+

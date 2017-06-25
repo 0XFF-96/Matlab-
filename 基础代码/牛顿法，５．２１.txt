@@ -1,0 +1,19 @@
+function [fun,dufn]=fun0(x)
+fun=x^3-1;% 求原函数值
+dfun=3*x^2-1;
+% 主程序
+
+clear
+x0=1.5;
+[fun,dfun]=fun0(x0);
+x1=x0-fun/dfun;i=1;
+while abs(x1-x0)>1e-5
+    x0=x1;
+    [fun,dfun]=fun0(x0);
+    x1=x0-fun/dfun;
+    i=i+1;
+end
+disp('the solution is x1')
+x1;
+diap('the iter time is ')
+i;

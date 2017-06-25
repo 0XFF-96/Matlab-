@@ -1,0 +1,75 @@
+function [ss,er] = exam3_1(t,a,b,n)
+%t用于控制积分方法，[a,b]对应积分区间，N表示分割份数
+%ss 表示积分近似值，er表示误差
+dx = (b-a)/n;
+syms x;
+ff=1/(1+x^2);
+xx=a:dx:b;
+ss=0;
+if t==1
+    for i=1:n
+        f1=subs(ff,x,xx(i+1));
+        ss=ss+dx*f1;
+    end
+elseif t==2
+    for i=1:n
+        f1=subs(ff,x,xx(i+1));
+        ss=ss+dx*f1;
+    end
+elseif t==3
+    for i=1:n
+        yy=(xx(i)+xx(i+1))/2;
+        f1=subs(ff,x,yy);
+        ss=ss+dx*f1;
+    end
+elseif t==4
+    for i=1:n
+        f1=subs(ff,x,xx(i));
+        f2=subs(ff,x,xx(i+1));
+        ss=ss+dx*(f1+f2)/2;
+    end
+else
+    for i=1:n
+        f1=subs(ff,x,xx(i));
+        f2=subs(ff,x,xx(i+1));
+        yy=(xx(i)+xx(i+1))/2;
+        f12=subs(ff,x,yy);
+        ss=ss+dx*(f1+f2+4*f12)/6;
+    end
+end
+er=abs(ss-pi/4);
+
+
+
+
+
+
+
+
+
+
+二重积分
+
+------------------------------------------------
+
+
+function [ss,er]=exam3_3(a,b,c,d,m,n)
+%矩形域单点柱体法，计算定积分
+%[a,b]为积分区域x范围，[c,d] 为积分区域y 的范围，m,n 表示分割数
+%ss 表示积分近似值，er表示误差
+dx=(b-a)/m;
+dy=(d-c)/n;
+x=a:dx:b;
+y=c:dy:d;
+ss=0;
+for i=1:m
+    xx=(x(i)+x(i+1))/2;
+    for j=1:n
+        yy=(y(j)+y(j+1))/2;
+        fxy=xx*yy+yy^3;  % 具体积分函数
+        ss=ss+fxy*dx*dy;
+    end
+end
+er=abs(ss-0.5);%? 0.5 代表？
+
+        

@@ -1,0 +1,30 @@
+r=10;t=linspace(0,2*pi,100); % 转动角离散化
+X=r&(t-sin(t));Y=r*(1-cos(t)); % 计算摆线一拱离散点的坐标
+for k=1:length(t)
+    hold off
+    plot(X(1:k),Y(1:k),'.'',''linewidth',3);
+    x0 = X(k) + r*sin(t(k)); y0=r;   % 圆心
+    hold on ,plot(x1,y1,'linewidth',3) % 绘制圆
+    axis ([-r,(2*pi*r+r),0,2*r]),axis qeuql
+    set(gca,'frotsize',14,'linewidth',3),pause(0,005),
+end
+
+
+
+----  代码错误！
+
+可行代码：
+
+
+r=10;t=linspace(0,2*pi,100); % 转动角离散化
+X=r*(t-sin(t));Y=r*(1-cos(t)); % 计算摆线一拱离散点的坐标
+for k=1:length(t)
+    hold off
+    plot(X(1:k),Y(1:k),'.','linewidth',3);
+    x0 = X(k) + r*sin(t(k)); y0=r;   % 圆心
+    x1 = x0 +r*cos(t); y1= y0 +r*sin(t);  %圆的坐标
+    hold on ,plot(x1,y1,'linewidth',3) % 绘制圆
+    axis([-r,(2*pi*r+r),0,2*r]),axis equal
+    set(gca,'fontsize',14,'linewidth',3),pause(0.005),
+end
+

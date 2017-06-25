@@ -1,0 +1,22 @@
+function y=binary(m,n,er)
+%
+%
+syms x xk
+a=m;b=n;k=0;
+ff=x^3+x-1;
+while b-a>er
+    xk=(a+b)/2;
+    fx=subs(ff,x,xk);
+    fa=subs(ff,x,a);
+    k=k+1;
+    if fx==0
+        y(k)=xk;
+    elseif fa*fk<0
+        b=xk;
+    else
+        a=xk;
+    end
+    y(k)=xk;
+end
+plot(y,'.-')
+grid on

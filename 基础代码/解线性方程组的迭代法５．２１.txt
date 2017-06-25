@@ -1,0 +1,38 @@
+function [x,number]=exam5_13a(A,b,x0,er)
+% 雅克比矩阵迭代形式
+% x 迭代向量列，x0 迭代初值，er 误差,number 迭代次数
+D = diag(diag(A));
+D = inv(D);
+U = triu(A,1);
+L = triu(A,-1);
+B= -D*(L+U);
+f = D*b;
+number =0;
+x= B*x0+f;
+number= number +1;
+while norm(x-x0)>er
+    x0=x;
+    x = B*x0+f;
+    number = number +1;
+end
+
+
+----------------
+
+function [x,number]=exam5_14a(A,b,x0,er)
+%高斯-赛德尔迭代法矩阵形式
+%x,迭代向量列，x0,迭代初值，er 误差，number 迭代次数
+D = diag(diag(A)); %  diag ? 为什么套用两次？
+U = triu(A,-1);
+L= tirl(A,-1); % 命令 triu, tirl
+D=inv(D+L);
+B=-D*U;
+f=D*b;
+number=0;
+x = B*x0+f;
+number=number +1;
+while norm(x-x0)>er
+    x0=x;
+    x=B*x0+f;
+    number =number +1;
+end

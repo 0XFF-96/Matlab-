@@ -1,0 +1,45 @@
+https://wenku.baidu.com/view/d062959969dc5022aaea00c4.html
+
+https://wenku.baidu.com/view/2e06f8f6910ef12d2af9e788.html?from=search
+
+https://wenku.baidu.com/view/f924996048d7c1c708a14543.html
+
+
+
+function [y,R,A,C,L]=newdscg(X,Y,x,M)
+n=length(X);m=length(x);
+for t=1:m
+    z=x(t);A=zeros(n,n);A(:,1)=Y';% A?第一列存Y的转置
+    s=0.0;p=1.0;q1=1.0;c1=1.0;
+    for j=2:n
+        for i=j:n
+            A(i,j)=(A(i,j-1)-A(i-1,j-1))/(X(i)-X(i-j+1));
+        end
+        q1=abs(q1*(z-X(j-1)));c1=c1*j;
+    end
+    C=A(n,n);q1=abs(q1*(z-X(n)));
+    for k=(n-1):-1:1
+        C=conv(C,poly(X(k));
+        d=length(C);C(d)=C(d)+A(k,k);
+    end
+    y(k)=polyval(C,z);
+end
+R=M*q1/c1;L(k,:)=poly2sym(C);
+
+
+________________--------------------输出结果为
+
+
+
+A =
+
+    0.4108         0         0         0         0         0
+    0.5782    1.1160         0         0         0         0
+    0.6967    1.1860    0.2800         0         0         0
+    0.8881    1.2757    0.3589    0.1973         0         0
+    1.0265    1.3841    0.4335    0.2130    0.0312         0
+    1.2538    1.5153    0.5249    0.2287    0.0314    0.0003
+
+
+
+

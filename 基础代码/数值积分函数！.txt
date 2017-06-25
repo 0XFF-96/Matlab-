@@ -1,0 +1,11 @@
+符号积分函数： int
+
+
+数值积分函数：
+
+注意调用格式：返回值
+
+           trapz 
+           quad 
+           quadl 
+           quadgk

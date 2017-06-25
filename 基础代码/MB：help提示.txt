@@ -1,0 +1,63 @@
+linspace - Generate linearly spaced vector
+
+    This MATLAB function returns a row vector with 100 linearly spaced points in the
+    interval [x1,x2].
+
+    y = linspace(x1,x2)
+    y = linspace(x1,x2,N)
+
+
+内联函数：
+
+
+ inline Construct inline object.
+ 
+    inline will be removed in a future release. Use anonymous
+    functions instead.
+ 
+    inline(EXPR) constructs an inline function object from the
+    MATLAB expression contained in the string EXPR.  The input
+    arguments are automatically determined by searching EXPR
+    for variable names (see SYMVAR). If no variable exists, 'x'
+    is used.
+ 
+    inline(EXPR, ARG1, ARG2, ...) constructs an inline
+    function whose input arguments are specified by the
+    strings ARG1, ARG2, ...  Multicharacter symbol names may
+    be used.
+ 
+    inline(EXPR, N), where N is a scalar, constructs an
+    inline function whose input arguments are 'x', 'P1',
+    'P2', ..., 'PN'.
+ 
+    Examples:
+      g = inline('t^2')
+      g = inline('sin(2*pi*f + theta)')
+      g = inline('sin(2*pi*f + theta)', 'f', 'theta')
+      g = inline('x^P1', 1)
+
+
+view - Viewpoint specification
+
+    This MATLAB function and view([az,el]) set the viewing angle for a
+    three-dimensional plot.
+
+    view(az,el)
+    view([az,el])
+    view([x,y,z])
+    view(2)
+    view(3)
+    view(ax,...)
+    [az,el] = view
+
+
+
+polar 极坐标： - Polar coordinate plot
+
+    This MATLAB function creates a polar coordinate plot of the angle theta versus
+    the radius rho.
+
+    polar(theta,rho)
+    polar(theta,rho,LineSpec)
+    polar(axes_handle,...)
+    h = polar(...)
