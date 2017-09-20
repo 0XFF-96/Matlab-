@@ -1,10 +1,4 @@
-%image processing charter 1
-%basci code
-%writen by : Alex96
-%Time :2017-9-8
-%reference:None
-%purpose: 
-%if you have any problem, you can find me in github.
+
 
 
 
