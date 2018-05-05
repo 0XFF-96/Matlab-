@@ -8,7 +8,7 @@ driver = webdriver.PhantomJS()
 def load_data():
     'cleaning data'
     df = pd.read_excel('user.xlsx')
-    df_name = dfiloc[:, 3:4]  # extract the name of moive from data
+    df_name = df.iloc[:, 3:4]  # extract the name of moive from data
     numpy_data = np.array(df_name)  # convert it to list 
     list_data = numpy_data.tolist()
 
