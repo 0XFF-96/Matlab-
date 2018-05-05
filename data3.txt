@@ -1,0 +1,361 @@
+http://www.huaweicloud.com/product/ecs.html,  弹性云服务器
+http://www.huaweicloud.com/product/gpu.html, GPU加速云服务器
+http://www.huaweicloud.com/product/fcs.html, FPGA加速云服务器
+http://www.huaweicloud.com/product/bms.html,  裸金属服务器
+http://www.huaweicloud.com/product/dec.html,  专属云
+http://www.huaweicloud.com/product/deh.html, 专属主机New!
+http://www.huaweicloud.com/product/as.html, 弹性伸缩
+http://www.huaweicloud.com/product/ims.html, 镜像服务
+http://www.huaweicloud.com/product/cce.html, 云容器引擎
+http://www.huaweicloud.com/product/cci.html, 云容器实例New!
+http://www.huaweicloud.com/product/functionstage.html, 函数服务
+http://www.huaweicloud.com/product/servicestage.html, 微服务云应用平台
+http://www.huaweicloud.com/product/aos.html, 应用编排服务New!
+http://www.huaweicloud.com/product/functiongraph.html, 函数工作流
+http://www.huaweicloud.com/product/swr.html, 容器镜像服务
+http://www.huaweicloud.com/product/cse.html, 微服务引擎New!
+http://www.huaweicloud.com/product/smn.html,  消息通知服务
+http://www.huaweicloud.com/product/dms.html, 分布式消息服务
+http://www.huaweicloud.com/product/apm.html, 应用性能管理
+http://www.huaweicloud.com/product/apig.html, API网关New!
+http://www.huaweicloud.com/product/cpts.html, 云性能测试服务New!
+http://www.huaweicloud.com/product/bcs.html, 区块链服务New!
+http://www.huaweicloud.com/product/aom.html, 应用运维管理New!
+http://www.huaweicloud.com/product/obs.html, 对象存储服务
+http://www.huaweicloud.com/product/evs.html,  云硬盘
+http://www.huaweicloud.com/product/vbs.html,  云硬盘备份
+http://www.huaweicloud.com/product/csbs.html, 云服务器备份
+http://www.huaweicloud.com/product/dss.html, 专属存储服务
+http://www.huaweicloud.com/product/cdn.html, CDN
+http://www.huaweicloud.com/product/sfs.html,  弹性文件服务
+http://www.huaweicloud.com/product/des.html,  数据快递服务
+http://www.huaweicloud.com/product/dess.html, 专属企业存储服务
+http://www.huaweicloud.com/product/hwsql.html, 云数据库 HWSQLNew!
+http://www.huaweicloud.com/product/mysql.html, 云数据库 MySQL
+http://www.huaweicloud.com/product/pg.html, 云数据库 PostgreSQL
+http://www.huaweicloud.com/product/mssql.html, 云数据库 SQL Server
+http://www.huaweicloud.com/product/dds.html, 文档数据库服务
+http://www.huaweicloud.com/product/dcs.html, 分布式缓存服务 Redis
+http://www.huaweicloud.com/product/dcsmem.html, 分布式缓存服务 Memcached
+http://www.huaweicloud.com/product/ddm.html, 分布式数据库中间件
+http://www.huaweicloud.com/product/drs.html, 数据复制服务New!
+http://www.huaweicloud.com/product/das.html, 数据管理服务New!
+http://www.huaweicloud.com/product/oms.html, 对象存储迁移服务
+http://www.huaweicloud.com/product/cdm.html, 云数据迁移New!
+http://www.huaweicloud.com/product/drs.html, 数据复制服务New!
+http://www.huaweicloud.com/product/vpc.html,  虚拟私有云
+http://www.huaweicloud.com/product/elb.html,  弹性负载均衡
+http://www.huaweicloud.com/product/nat.html, NAT网关New!
+http://www.huaweicloud.com/product/eip.html,  弹性公网IPNew!
+http://www.huaweicloud.com/product/dc.html,  云专线
+http://www.huaweicloud.com/product/vpn.html, 虚拟专用网络
+http://www.huaweicloud.com/product/dns.html, 云解析服务
+http://www.huaweicloud.com/product/mls.html, 机器学习服务
+http://www.huaweicloud.com/product/dls.html, 深度学习服务
+http://www.huaweicloud.com/product/ges.html, 图引擎服务
+http://www.huaweicloud.com/product/cs.html, 实时流计算服务
+http://www.huaweicloud.com/product/mrs.html, MapReduce服务
+http://www.huaweicloud.com/product/dli.html,数据湖探索New!
+http://www.huaweicloud.com/product/cloudtable.html, 表格存储服务
+http://www.huaweicloud.com/product/dws.html,数据仓库服务
+http://www.huaweicloud.com/product/es.html, 云搜索服务
+http://www.huaweicloud.com/product/ocr.html, 文字识别New!
+http://www.huaweicloud.com/product/image.html, 图像识别
+http://www.huaweicloud.com/product/ils.html, 智能物流
+http://www.huaweicloud.com/product/mpc.html, 媒体转码New!
+http://www.huaweicloud.com/product/vod.html, 视频点播New!
+http://www.huaweicloud.com/product/evcs.html, 娱乐视频云服务New!
+http://www.huaweicloud.com/product/antiddos.html,  Anti-DDoS流量清洗
+http://www.huaweicloud.com/product/cad.html, DDoS高防IP
+http://www.huaweicloud.com/product/waf.html, Web应用防火墙
+http://www.huaweicloud.com/product/webscan.html, 漏洞扫描服务
+http://www.huaweicloud.com/product/hss.html, 企业主机安全New!
+http://www.huaweicloud.com/product/kms.html, 密钥管理服务
+http://www.huaweicloud.com/product/dbss.html, 数据库安全服务New!
+http://www.huaweicloud.com/product/ses.html, 安全专家服务
+http://www.huaweicloud.com/product/ssa.html, 态势感知New!
+http://www.huaweicloud.com/product/cbh.html, 云堡垒机New!
+http://www.huaweicloud.com/product/ief.html, 智能边缘平台New!
+http://www.huaweicloud.com/product/projectman.html,  项目管理
+http://www.huaweicloud.com/product/codehub.html, 代码托管
+http://www.huaweicloud.com/product/pipeline.html, 流水线
+http://www.huaweicloud.com/product/codecheck.html,  代码检查
+http://www.huaweicloud.com/product/codeci.html,  编译构建
+http://www.huaweicloud.com/product/deployman.html, 部署
+http://www.huaweicloud.com/product/testman.html,  测试管理
+http://www.huaweicloud.com/product/releaseman.html, 发布
+http://www.huaweicloud.com/product/mobiletest.html, 移动应用测试
+http://www.huaweicloud.com/product/cloudide.html, CloudIDE
+http://www.huaweicloud.com/product/ces.html,  云监控服务
+http://www.huaweicloud.com/product/lts.html, 云日志服务
+http://www.huaweicloud.com/product/iam.html, 统一身份认证服务
+http://www.huaweicloud.com/product/cts.html,  云审计服务
+http://www.huaweicloud.com/product/tms.html, 标签管理服务New!
+http://www.huaweicloud.com/product/crs.html, 云报表服务
+http://www.huaweicloud.com/product/ccs.html, 云目录服务
+http://www.huaweicloud.com/product/rts.html, 资源模板服务New!
+http://www.huaweicloud.com/product/workspace.html,  云桌面
+http://www.huaweicloud.com/product/cloudim.html, 即时通信
+http://www.huaweicloud.com/product/cloudvc.html, 会议
+http://www.huaweicloud.com/product/cloudcc.html, 联络中心
+http://www.huaweicloud.com/product/voice.html, 语音通话
+http://www.huaweicloud.com/product/msgsms.html, 消息&短信New!
+http://www.huaweicloud.com/product/privatenumber.html, 隐私保护通话New!
+http://www.huaweicloud.com/product/iot.html, IoT平台
+http://www.huaweicloud.com/product/ief.html, 智能边缘平台New!
+http://www.huaweicloud.com/solution/businesscloud/,电商行业企业自建解决方案
+http://www.huaweicloud.com/solution/businesscloud/house.html,家电数码
+http://www.huaweicloud.com/solution/businesscloud/crossborder.html,跨境贸易
+http://www.huaweicloud.com/solution/clothing/,鞋服
+http://www.huaweicloud.com/solution/businesscloud/pay.html,聚合支付
+http://www.huaweicloud.com/solution/businesscloud/recommend.html,推荐
+http://www.huaweicloud.com/solution/businesscloud/ar.html,AR
+http://www.huaweicloud.com/solution/businesssecurity/,安全
+http://www.huaweicloud.com/solution/businessclouddelivery/,双交付
+http://www.huaweicloud.com/solution/ecomfunction/,函数计算
+http://www.huaweicloud.com/solution/ecommerce/apm.html,性能管理
+http://www.huaweicloud.com/solution/manufacturing/,制造行业数字化转型解决方案
+http://www.huaweicloud.com/solution/cadaas/,云设计
+http://www.huaweicloud.com/solution/caeaas/,云仿真
+http://www.huaweicloud.com/solution/mesaas/,云MES
+http://www.huaweicloud.com/solution/pdm/,预测性维护
+http://www.huaweicloud.com/solution/gamecloud/,游戏行业解决方案
+http://www.huaweicloud.com/solution/gamehosting/,游戏云端
+http://www.huaweicloud.com/solution/gamecontainer/,游戏容器部署
+http://www.huaweicloud.com/solution/gamesecurity/,安全
+http://www.huaweicloud.com/solution/gamedev/,游戏开发
+http://www.huaweicloud.com/solution/finance/,金融行业全渠道解决方案
+http://www.huaweicloud.com/solution/quotations/,证券
+http://www.huaweicloud.com/solution/insurance/,保险
+http://www.huaweicloud.com/solution/smallloan/,互联网小贷
+http://www.huaweicloud.com/solution/supplychanin/,供应链金融
+http://www.huaweicloud.com/solution/dualrecord/,开户双录
+http://www.huaweicloud.com/solution/connectedcar/,车联网解决方案
+http://www.huaweicloud.com/solution/nev/,新能源车监管
+http://www.huaweicloud.com/solution/parking/,智慧停车
+http://www.huaweicloud.com/solution/ubi/,UBI保险
+http://www.huaweicloud.com/solution/tbox/,T-BOX 安全辅助驾驶
+http://www.huaweicloud.com/solution/obd/,OBD 安全辅助驾驶
+http://www.huaweicloud.com/solution/fleetmanagement/,车队管理
+http://www.huaweicloud.com/solution/retail/,智慧零售解决方案
+http://www.huaweicloud.com/solution/pmservice/,气象公众服务解决方案
+http://www.huaweicloud.com/solution/videosurveillance/,零售行业视频监控解决方案
+http://www.huaweicloud.com/solution/logistics/,物流行业解决方案
+http://www.huaweicloud.com/solution/government.html,政府行业解决方案
+http://www.huaweicloud.com/solution/science/,科学计算解决方案
+http://www.huaweicloud.com/solution/mediaintegration/,媒资行业智慧媒体解决方案
+http://www.huaweicloud.com/solution/Biomedicine/,生物医药解决方案
+http://www.huaweicloud.com/solution/videoeducation/,在线教育直播互动解决方案
+http://www.huaweicloud.com/solution/imagestorage/,医疗影像归档解决方案
+http://www.huaweicloud.com/solution/ces/,教育在线培训解决方案
+http://www.huaweicloud.com/solution/mmtc/,慢病医护解决方案
+http://www.huaweicloud.com/solution/metering/,智能抄表解决方案
+http://www.huaweicloud.com/solution/telehealth/,远程医疗解决方案
+http://www.huaweicloud.com/solution/telecom/,电信业务解决方案
+http://www.huaweicloud.com/solution/imagediagnostic/,医疗影像诊断解决方案
+http://www.huaweicloud.com/solution/electrictrade/,能源行业购售电一体化解决方案
+http://www.huaweicloud.com/solution/smartcharging/,能源行业智慧充电解决方案
+http://www.huaweicloud.com/solution/FusionSolarCloud/,能源行业光伏云网解决方案
+http://www.huaweicloud.com/solution/EnergySystemsIntegration/,综合能源服务解决方案
+http://www.huaweicloud.com/solution/webmobile/,移动互联
+http://www.huaweicloud.com/solution/highperformance/,高性能计算
+http://www.huaweicloud.com/solution/sap/,SAP
+http://www.huaweicloud.com/solution/iot/,IoT基础设施
+http://www.huaweicloud.com/solution/Onlinevideo/,视频基础设施
+http://www.huaweicloud.com/solution/cloudoffice/,云上办公
+http://www.huaweicloud.com/solution/fcs/,专享云
+http://www.huaweicloud.com/solution/cloud-migration/,上云迁移
+http://www.huaweicloud.com/solution/odbm/,Oracle上云
+http://www.huaweicloud.com/solution/CloudBox/,企业云盘
+http://www.huaweicloud.com/solution/Backup/,备份与归档
+http://www.huaweicloud.com/solution/privatecloud/,FusionCloud私有云
+http://www.huaweicloud.com/solution/xconnect/,X-Connect
+http://www.huaweicloud.com/solution/microsoft/,微软解决方案
+http://www.huaweicloud.com/solution/log_analysis/,日志分析
+http://www.huaweicloud.com/solution/cloudsecurity/,通用安全
+http://www.huaweicloud.com/solution/gradedprotection/,等保合规安全
+http://www.huaweicloud.com/solution/sapsecurity/,SAP安全
+http://www.huaweicloud.com/solution/gamesecurity/,游戏安全
+http://www.huaweicloud.com/solution/businesssecurity/,电商安全
+http://www.huaweicloud.com/solution/AttackPrevention/,云主机防暴力破解
+http://www.huaweicloud.com/solution/softedu/,软件实训
+http://www.huaweicloud.com/solution/gamedev/,游戏开发
+http://www.huaweicloud.com/solution/businessclouddelivery/,电商双交付
+http://www.huaweicloud.com/product/mls.html,机器学习服务
+                                        
+http://www.huaweicloud.com/product/dls.html,深度学习服务
+                                        
+http://www.huaweicloud.com/product/hmi.html,深度学习镜像
+                                        
+http://www.huaweicloud.com/product/ges.html,图引擎服务
+                                        
+http://www.huaweicloud.com/product/batch.html,批处理服务New!
+
+http://www.huaweicloud.com/product/dis.html, 数据接入服务
+                                        
+http://www.huaweicloud.com/product/cdm.html,云数据迁移
+                                        
+http://www.huaweicloud.com/product/cs.html,实时流计算服务
+                                        
+http://www.huaweicloud.com/product/mrs.html, MapReduce服务
+                                        
+http://www.huaweicloud.com/product/dli.html,数据湖探索New!
+
+http://www.huaweicloud.com/product/cloudtable.html,表格存储服务
+                                        
+http://www.huaweicloud.com/product/dws.html,数据仓库服务
+                                        
+http://www.huaweicloud.com/product/es.html,云搜索服务
+                                        
+http://www.huaweicloud.com/product/dlf.html,数据湖工厂New!
+
+http://www.huaweicloud.com/product/res.html,推荐引擎服务New!
+
+http://www.huaweicloud.com/product/ocr.html,文字识别
+                                            New!
+http://www.huaweicloud.com/product/face.html,人脸识别
+                                        
+http://www.huaweicloud.com/product/image.html,图像识别
+                                        
+http://www.huaweicloud.com/product/moderation.html,内容检测
+                                        
+http://www.huaweicloud.com/product/deblur.html,图像处理
+                                        
+http://www.huaweicloud.com/product/mts.html,机器翻译
+                                        
+http://www.huaweicloud.com/product/tts.html,语音合成
+                                            New!
+http://www.huaweicloud.com/product/asr.html,语音识别
+                                        
+http://www.huaweicloud.com/product/nlp.html,自然语言处理
+                                            New!
+http://www.huaweicloud.com/product/cbs.html,对话机器人服务
+                                            New!
+http://www.huaweicloud.com/product/ils.html,智能物流
+                                        
+http://www.huaweicloud.com/product/iwater.html,智能水务
+                                            New!
+http://www.huaweicloud.com/product/imanufacturing.html,智能制造
+                                            New!
+http://www.huaweicloud.com/product/itransport.html,智能交通
+                                            New!
+http://www.huaweicloud.com/product/ipower.html,智能电力
+                                            New!
+http://www.huaweicloud.com/product/ifinance.html,智能金融
+                                            New!
+http://www.huaweicloud.com/product/iretail.html,智能零售
+                                            New!
+https://market.huaweicloud.com/selected/enterprise,企业上云New!
+https://market.huaweicloud.com/selected/video,视频New!
+https://market.huaweicloud.com/selected#zhinengzhizao,智能制造
+https://market.huaweicloud.com/selected#hangyefangan,行业解决方案
+https://market.huaweicloud.com/selected#jianzhan,建站
+https://market.huaweicloud.com/selected#anquan,安全
+https://market.huaweicloud.com/selected#api,API
+https://market.huaweicloud.com/selected#fuwu,服务
+https://market.huaweicloud.com/selected#IoT,IoT
+https://market.huaweicloud.com/basicSoftware/,基础软件
+https://market.huaweicloud.com/website/,网站建设
+https://market.huaweicloud.com/businessSoftware/,企业应用
+https://market.huaweicloud.com/professionalServices/,专业服务
+https://market.huaweicloud.com/developerTools/,开发者工具
+https://market.huaweicloud.com/security/,安全市场
+https://market.huaweicloud.com/solution/,行业解决方案
+https://market.huaweicloud.com/api/,API
+https://market.huaweicloud.com/internet/,物联网
+https://market.huaweicloud.com/trialCenter/,0元试用
+https://market.huaweicloud.com/webcloud/,极速建站
+https://market.huaweicloud.com/saas/,SaaS专区
+https://bbs.huaweicloud.com/marketplace,云市场热点
+https://market.huaweicloud.com/businessuniversity,云市场商学院New!
+https://bbs.huaweicloud.com/blogs,博客
+http://forum.huaweicloud.com/,论坛
+https://bbs.huaweicloud.com/ask,问答
+https://bbs.huaweicloud.com/videos,视频
+https://bbs.huaweicloud.com/topic,专题New!
+https://support.huaweicloud.com/index.html,文档
+https://support.huaweicloud.com/help-novice.html,新手入门
+https://support.huaweicloud.com/help-tools.html,自助服务
+https://www.huaweicloud.com/about/notice_1.html,服务公告
+https://www.huaweicloud.com/about/protection.html,服务保障
+https://www.huaweicloud.com/about/VIP_client.html,支持与服务计划
+https://www.huaweicloud.com/about/contact.html,联系我们
+http://developer.huaweicloud.com/openapilist,OpenAPI
+http://developer.huaweicloud.com/sdk,SDK
+http://developer.huaweicloud.com/training,培训与认证
+http://developer.huaweicloud.com/tools,开发工具
+http://developer.huaweicloud.com/code,代码示例库
+https://www.huaweicloud.com/about/about_us.html,关于华为云
+https://www.huaweicloud.com/about/news_1.html,新闻报道
+https://www.huaweicloud.com/cases/cases_1.html,客户案例
+https://www.huaweicloud.com/journal/firstphase.html,《CLOUD 云+》 
+https://www.huaweicloud.com/global/,华为云全球站点
+https://activity.huaweicloud.com/developer_plan/index.html,华为云开发者支持计划
+https://activity.huaweicloud.com/challenge/index.html,礼献开发者 NEW
+https://developer.huaweicloud.com/openapilist,
+                                                                开放API的产品
+                                                            
+https://www.huaweicloud.com/product/apig.html,
+                                                                API网关
+                                                            
+https://app.huaweicloud.com/api/,
+                                                                API市场
+                                                            
+http://developer.huaweicloud.com/sdk#Java,
+                                                            Java SDK
+                                                        
+http://developer.huaweicloud.com/sdk#Python,
+                                                            Python SDK
+                                                        
+http://developer.huaweicloud.com/sdk#.NET,
+                                                            .NET SDK
+                                                        
+http://developer.huaweicloud.com/sdk#PHP,
+                                                            PHP SDK
+                                                        
+http://developer.huaweicloud.com/sdk#Android,
+                                                            Android SDK
+                                                        
+http://developer.huaweicloud.com/sdk#iOS,
+                                                            iOS SDK
+                                                        
+http://developer.huaweicloud.com/sdk#Node.js,
+                                                            Node.js SDK
+                                                        
+http://developer.huaweicloud.com/sdk#BrowserJS,
+                                                            BrowserJS SDK
+                                                        
+http://developer.huaweicloud.com/sdk#C,
+                                                            C SDK
+                                                        
+http://developer.huaweicloud.com/sdk#Go,
+                                                            Go SDK
+                                                        
+http://developer.huaweicloud.com/code?0,
+                                                            代码示例
+                                                        
+http://developer.huaweicloud.com/tools#section-3,
+                                                                生态工具
+                                                            
+https://app.huaweicloud.com/developerTools/,
+                                                                开发者工具市场
+                                                            
+https://www.huaweicloud.com/product/projectman.html,立即体验
+https://www.huaweicloud.com/product/codehub.html,立即体验
+https://www.huaweicloud.com/product/pipeline.html,立即体验
+https://www.huaweicloud.com/product/codecheck.html,立即体验
+https://www.huaweicloud.com/product/codeci.html,立即体验
+https://www.huaweicloud.com/product/testman.html,立即体验
+https://www.huaweicloud.com/product/mobiletest.html,立即体验
+https://www.huaweicloud.com/product/deployman.html,立即体验
+https://www.huaweicloud.com/product/releaseman.html,立即体验
+https://www.huaweicloud.com/product/cloudide.html,立即体验
+https://www.huaweicloud.com/solution/softedu/,查看详情
+https://www.huaweicloud.com/solution/gamedev/,查看详情
+https://www.huaweicloud.com/solution/businessclouddelivery/,查看详情
+http://developer.huaweicloud.com/training#section-1,
+                                    查看详情
+http://developer.huaweicloud.com/training#section-2,
+                                    查看详情
+http://developer.huaweicloud.com/training#section-3,
+                                    查看详情
