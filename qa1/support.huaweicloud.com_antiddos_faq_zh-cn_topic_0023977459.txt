@@ -1,0 +1,5 @@
+Anti-DDoS能帮助阻止哪些类型的攻击？
+
+
+提供针对以下攻击的防护：
+SYN Flood攻击、CC攻击、慢速连接类攻击、UDP攻击、ACK Flood攻击、TCP类攻击等DDoS攻击。

@@ -1,0 +1,15 @@
+有哪些途径可以使用AIS的API？
+
+
+
+  共有三种方式可以基于已构建好的请求消息发起请求。
+  
+cURLcURL是一个命令行工具，用来执行各种URL操作和信息传输。cURL充当的是HTTP客户端，可以发送HTTP请求给服务端，并接收响应消息。cURL适用于接口调试。关于cURL详细信息请参见https://curl.haxx.se/。 
+编码通过编码调用接口，组装请求消息，并发送处理请求消息。 
+REST客户端Mozilla、Google都为REST提供了图形化的浏览器插件，发送处理请求消息。
+
+针对Firefox，请参见Firefox REST Client。
+针对Chrome，请参见Chrome REST Client。
+ 
+
+
